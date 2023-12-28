@@ -1,0 +1,60 @@
+.btn-link{
+  text-decoration: none;
+  font-family: $font-serif;
+  border-radius:20%;
+  padding: 3rem;
+   // @include hover-border;
+    background-color: $color-primary;
+    color:$color-grey-dark-1;
+    border: 2px solid currentColor;
+    transition: all 0.3s;
+  &:hover,&:active{
+
+  //color:white;
+  //background-color: $color-button;
+
+  border-radius: 0%;
+  }
+}
+
+
+.heading-1{
+  font-size: 6rem;
+  font-family: $font-serif;
+  }
+
+.heading-2{
+  font-size: 5rem;
+  font-family: $font-serif;
+  }
+
+
+  .heading-3{
+  font-size: 3rem;
+  font-family: $font-serif;
+  }
+
+  .heading-4{
+    font-size: 2.75rem;
+    font-family: $font-serif;
+  }
+
+  .heading-5{
+    font-size: 2.25rem;
+    font-family: $font-serif;
+  }
+
+  .heading-6{
+    font-size: 1.75rem;
+    font-family: $font-serif;;
+  }
+
+  .heading-p{
+    font-size: 2rem;
+    font-family: $font-serif;
+  }
+
+  .paragraph{
+    margin: 2rem 0;
+   // line-height: 2.25;
+  }

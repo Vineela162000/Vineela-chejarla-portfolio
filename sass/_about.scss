@@ -1,0 +1,67 @@
+.about{
+  //background-color: $color-grey-light-1;
+  grid-column: center-start/center-end;
+  font-size: $default-font-size;
+  padding:3rem;
+  margin: 7rem 0;
+  border-radius: 2%;
+  font-family: $font-primary;
+
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: full-start/full-end;
+
+  }
+
+&-paragraph{
+  line-height: 2.25;
+}
+
+  &-content{
+    & > *{
+    margin-top:3rem;
+    border-radius: 10%;
+
+    }
+    display:grid;
+    grid-template-columns: repeat(2,minmax(35rem,1fr)) ;
+    grid-gap: 3rem;
+
+  }
+  &-points{
+
+    background-color: $color-cloud;
+    padding: 3rem;;
+    border:1px solid currentColor;
+    @media only screen and (max-width: $bp-medium) {
+      grid-column:1/-1;
+      border-radius: 2%;
+    }
+  }
+
+  &-specialities{
+    grid-column: 1/-1;
+    background-color: $color-primary;
+    padding: 3rem;
+    border:1px solid currentColor;
+    border-radius: 2%;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1/-1;
+      border-radius: 2%;
+    }
+  }
+
+  &-hobbies{
+    background-color: $color-name;
+    border:1px solid currentColor;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column:1/-1;
+      border-radius: 2%;
+
+    }
+
+  }
+}
+
